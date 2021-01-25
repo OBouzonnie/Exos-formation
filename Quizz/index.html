@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Quizz JS</title>
+</head>
+<body>
+
+    <h1>Quizz Culture générale !</h1>
+
+    <div class="container">
+
+        <form>
+
+            <div class="quizz-card">
+
+                <h4>Qui est l'empereur de France le 2 décembre 1804 ?</h4>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q1" id="q1a" value="a" checked>
+                    <label for="q1">Clovis</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q1" id="q1b" value="b">
+                    <label for="q1">Abraham Lincoln</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q1" id="q1c" value="c">
+                    <label for="q1">Napoleon Bonaparte</label>
+                </div>
+
+            </div>
+
+            <div class="quizz-card">
+
+                <h4>Quelle est la date d'indépendance des États-Unis ?</h4>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q2" id="q2a" value="a" checked>
+                    <label for="q2">4 juillet 1776</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q2" id="q2b" value="b">
+                    <label for="q2">18 avril 1856</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q2" id="q2c" value="c">
+                    <label for="q2">30 juin 1925</label>
+                </div>
+
+            </div>
+
+            <div class="quizz-card">
+
+                <h4>La chute de l'empire Romain se situe en ?</h4>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q3" id="q3a" value="a" checked>
+                    <label for="q3">15 ap. J.-C.</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q3" id="q3b" value="b">
+                    <label for="q3">395 ap. J.-C.</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q3" id="q3c" value="c">
+                    <label for="q3">-740 av. J.-C.</label>
+                </div>
+
+            </div>
+
+            <div class="quizz-card">
+
+                <h4>Quelle est la capitale de la Slovénie ?</h4>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q4" id="q4a" value="a" checked>
+                    <label for="q4">Ljubljana</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q4" id="q4b" value="b">
+                    <label for="q4">Belgrade</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q4" id="q4c" value="c">
+                    <label for="q4">Bratislava</label>
+                </div>
+
+            </div>
+
+            <div class="quizz-card">
+
+                <h4>Combien d'habitants compte l'Irlande en 2020 ?</h4>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q5" id="q5a" value="a" checked>
+                    <label for="q5">1,365 Million</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q5" id="q5b" value="b">
+                    <label for="q5">21 Millions</label>
+                </div>
+
+                <div class="qcm-option">
+                    <input type="radio" name="q5" id="q5c" value="c">
+                    <label for="q5">4,9 Millions</label>
+                </div>
+
+            </div>
+
+            <button type="submit">Validez vos choix !</button>
+
+        </form>
+
+        <div class="resultats">
+            <h2 class="titre-result">Cliquez sur valider pour voir les résultats</h2>
+            <p class="note"></p>
+            <p class="aide"></p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

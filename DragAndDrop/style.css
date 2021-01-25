@@ -1,0 +1,61 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #42275a, #734b6d);
+    width: 100%;
+    height: 80vh;
+}
+
+h1{
+    text-align:center;
+    color:#fff;
+    font-size: 50px;
+    margin: 32px;
+}
+
+.case{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    margin:16px;
+    border: 3px solid #000;
+    font-size: 32px;
+    text-align: center;
+    /* overflow:hidden;     */
+}
+
+.flux-entrant, .flux-sortant{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.poubelle{
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+    color:#fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 32px;
+    margin:16px;
+}
+
+.base, .validated{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.base{
+    transition: transform ease-in-out 1s;
+}
